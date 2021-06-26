@@ -1,0 +1,191 @@
+.plugin-error {
+	color: red;
+}
+/* reset defaults */
+a {
+	text-decoration: none;
+}
+a:link, a:visited, a:active {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+td {
+	padding: 0 1em 0 0;
+}
+th {
+	padding: 0 1em 0 0;
+	font-family: sans-serif;
+}
+form {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+input[type="text"], textarea {
+	padding: 1px 3px;
+}
+/* base structure */
+body {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	width:80%;
+	max-width: 1400px;
+	min-width: 900px;
+}
+#header {
+	margin: 0;
+	margin-top: 20px;
+}
+#main {
+	margin: 2em;
+	padding: 3em;
+	min-height: 40em;
+}
+#footer {
+	margin: 0;
+}
+/* fonts */
+.serif, .mincho {
+	font-family: serif;
+}
+.sans-serif, .gothic {
+	font-family: sans-serif;
+}
+.bold {
+	font-weight: normal;
+	font-family: sans-serif;
+}
+.dim, a.dim {
+	color: gray !important;
+}
+.small {
+	font-size: 70% !important;
+}
+/*  */
+.solid-border {
+	border: 1px solid #c0c0c0;
+}
+.round-border {
+	border: 1px solid #c0c0c0;
+	border-radius: 3px;
+}
+hr {
+	border: 1px;
+	height: 1px;
+	background-color: gray;
+	width: 97%;
+}
+hr.invisible {
+	display: none;
+	height:0;
+	margin:0;
+	padding:0;
+	border:0;
+}
+/* titles */
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: sans-serif;
+}
+h2.title {
+	font-family: sans-serif !important;
+	color: black !important;
+	font-weight: normal;
+	font-size: 170%;
+}
+h3.section-title {
+	font-weight: normal;
+	font-size: 150%;
+}
+h4.section-title {
+	font-weight: normal;
+	font-size: 120%;
+}
+h5.section-title {
+	font-weight: bold;
+	font-size: 110%;
+}
+h6.section-title {
+	font-weight: bold;
+	font-size: 100%;
+}
+/* text */
+.textline {
+	line-height: 140%;
+}
+.empty-textline {
+	line-height: 90%;
+}
+/* verbatim block */
+pre.verbatim {
+	margin: 0.5em 0;
+	padding: 0.5em 1em 0.5em 0;
+	font-size: 93%;
+	font-family: monospace;
+	white-space: pre-wrap;
+	display: grid;
+	width: -moz-max-content;
+	min-width: 50%;
+}
+/* table */
+table.border,
+table.border th,
+table.border td {
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid gray;
+}
+th, td {
+	font-size: 95%;
+	padding: 3px 5px;
+}
+th {
+	font-family: sans-serif;
+}
+/* definition list */
+.def {
+}
+/* toc */
+div.toc {
+	float: right;
+	margin: 0 0 1em 1em;
+	padding: 1em;
+	font-size: 90%;
+	min-width: 250px;
+	max-width: 300px;
+}
+ul.toc {
+	margin: 1em 0 0 0;
+	padding: 0 0 0 0.5em;
+}
+ul.tocsub {
+	margin: 0;
+	padding: 0 0 0 1em;
+}
+.toc li {
+	list-style-position: inside;
+	list-style-type: square;
+}
+.toc a {
+	color: black;
+	text-decoration: none;
+}
+.toc a:hover {
+	color: black;
+	text-decoration: underline;
+}
+/* media */
+video {
+	margin: 1em auto;
+	width: 700px;
+	display: block;
+}
+audio {
+	width: 100%;
+	display: block;
+}
